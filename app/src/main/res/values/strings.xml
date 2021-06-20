@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Hewan Langka</string>
+
+    <string-array name="namaHewan">
+        <item>Banteng(bos javanicus)</item>
+        <item>Anoa dataran rendah</item>
+        <item>Yaki</item>
+        <item>Anjing Ajag</item>
+        <item>Kijang Kuning</item>
+        <item>Kodok Merah</item>
+        <item>Kura-kura papua leher panjang</item>
+        <item>Penyu Sisik</item>
+        <item>Buaya Muara</item>
+        <item>Sanca Timor</item>
+        <item>Sanca Hijau</item>
+    </string-array>
+
+    <string-array name="kriteria">
+        <item>Tinggi pundak 120–170 cm.jantang tinggi 1,9 m bobot badan 825 kg,sedangkan betinanya tinggi 1,6 m dengan bobot badan 639 kg</item>
+        <item>Panjang badan 1600–1720 mm,panjang ekor 180–130 mm tinggi  pundak 690–300 mm dan bobot badan 150–300 kg</item>
+        <item>Macaca nigra mempunyai ciri tubuh yang mudah dibedakan dengan jenis lainnya. Panjang tubuhnya 445 – 600 mm, panjang ekornya 20 mm, dan berat tubuh antara 7 sampai 15 kg. </item>
+        <item>Panjang badan 760-1000 mm,pajang ekor 280-482 mm, tinggi bahu 500 mm , bobot badan 15-21 kg untuk jantan, 10-17
+Jenis ini hidup di hutan belantara hingga wilayah pegunungan. Perawakannya sedang, berwarna cokelat kemerahan. Bagian bawah dagu, leher, hingga ujung perutnya putih, sedangkan ekornya panjang dan berbulu tebal kehitaman
+</item>
+        <item>ada bagian atas (punggung) satwa liar ini berwarna merah kekuning-kuningan dengan sebaran kepirang-kepirangan di sepanjang bagian tengah terutama leher / tengkuk, bagian bawah (perut) pucat kekuning-kuningan, oranye agak keputih-putihan</item>
+        <item>Panjang jantan 20–30 mm. Betina 25–40 mm. Ciri khasnya adalah wana kulitnya yang dipenuhi bintik-bintik berwarna merah darah</item>
+        <item>Bagian batokya berwarna cokelat tua, hampir hitam tetapi tekstur sisiknya masih terlihat jelas. Plastronnya berwarna cokelat muda. Kura-kura papua memiliki leher yang sangat panjang dan kadang-kadang dapat melebihi panjang batoknya</item>
+        <item>Tempurung berbentuk bulat lonjong, panjang tempurung mencapai 90 cm.Kepala memiliki dua pasang sisik prefrontal.Sisik-sisik pada tempurung atas saling berselingkupan dengan jumlah sisik kostal empat buah</item>
+        <item>panjang tubuh mencapai 7 m dengan berat bisa mencapai 1000 kg.Moncong berukuran besar dengan sepasang lunas menonjol dari depan tulang mata sampai ke bagian tengah moncong</item>
+        <item>Individu dewasa memiliki panjang total 1,5–2 m, maksimal 3 m untuk specimen dalam kandang.2.	Sisik bagian kepala kuning pucat,di batasi warna gelap pada setiap sisiknya. Bagian tubuh depan kuning pucat dengan pola gelap tidak teratur di bagian dorsal. Bagian tenag tubuh ada transisi dari blotch gelap menjadi total warna coklat gelap pada bagian belakang tubuh</item>
+        <item>Satwa ini umumnya memiliki warna tubuh berwarna hijau cerah dengan pola warna saat dewasa. Ular sanca hijau yang masih muda mempunyai warna yang lebih bervariasi mulai dari kuning terang, coklat keputihan, coklat kemerahan, dan bahkan merah</item>
+    </string-array>
+
+    <string-array name="namaPulau">
+        <item>Jawa,kalimntan,bali</item>
+        <item>Sulawesi</item>
+        <item>Sulawesi utara</item>
+        <item>Sumatera dan jawa</item>
+        <item>Kalimantan</item>
+        <item>Jawa barat</item>
+        <item>Papua bagian selatan dan papua nugini.</item>
+        <item>Tersebar luas di perairan samudera Atlantik dan Pasifik.</item>
+        <item>Muara Sungai-Sungai Besar Dan Air Laut Yang Dekat Dengan Darata Di Australia.Bangladesh, Brunei, Myanmar, Palau, Papua Nugini, Filipina,Kepulauan Solomo, Sri Langka, Vanuatu, Vietnam.</item>
+        <item>Endemik Di Nusa Tenggara: Flores,Lembata Solor,Pantar, Dan Adonara</item>
+        <item>Kepulauan raja ampat</item>
+    </string-array>
+
+    <string-array name="pasalHewan">
+        <item>Lantaran populasinya yang semakin menurun, sejak tahun 1996, banteng dinyatakan dalam status konservasi “Endangered” (EN; Terancam Punah) oleh IUCN. Banteng sampai saat ini belum terdaftar dalam CITES meskipun sejak 1996 telah diusulkan untuk didaftar dalam CITES Apendiks I</item>
+        <item>Mengingat penurunan populasi dan ancaman yang terus berlangsung, Anoa Dataran Rendah (Bubalus depressicornis) didaftar sebagai spesies Endangered (Terancam Punah) oleh IUCN Redlist sejak 1986. Sedangkan oleh CITES, hewan endemik ini didaftar sebagai Appendix I. Di Indonesia sendiri Anoa Dataran Rendah bersama saudaranya, Anoa Pegunungan (Bubalus quarlesi) dimasukkan sebagai hewan yang dilindungi berdasarkan PP. Nomor 7 Tahun 1999.</item>
+        <item>Macaca nigra dilindungi oleh pemerintah RI, dengan SK Menteri Pertanian 29 Januari 1970 No.421/Kpts/um/8/1970, SK Menteri Kehutanan 10 Juni 1991 No.301/Kpts-II/1991 dan Undang-undang No.5 1990. Dalam daftar yang dikeluarkan IUCN, yaki digolongkan sebagai satwa hampir punah “endangered” dan dicantumkan dalam Apendix II CITES (Supriatna, 2000).
+Macaca nigra didaftarkan dalam Apendix II oleh CITES ( Wilson, 1993).
+</item>
+        <item>Lembaga Konservasi Dunia [IUCN] menetapkan status ajag pada kategori Genting [Endangered/En] atau dua langkah menuju kepunahan di alam liar. Berdasarkan Peraturan Menteri Lingkungan Hidup dan Kehutanan No. 106 Tahun 2018 tentang Jenis Tumbuhan dan Satwa Dilindungi, anjing ajag merupakan jenis satwa dilindungi</item>
+        <item>dilindungi berdasarkan PP Nomor 7 Tahun 1999, populasi kijang dianggap belum terancam kepunahan. Oleh IUCN Redlist, kijang dikategorikan dalam status konservasi “Least Concern” sejak 1996.</item>
+        <item>KodokMerah merupakan spesies ampibi endemik Jawa Indonesia yang hanya bisa ditemukan di Taman Nasional Gunung Gede Pangrango dan Taman Nasional Gunung Halimun-Salak</item>
+        <item>Jenis Kura-kura ini endemik di bagian selatan pulau Papua. Saat ini, ia terdaftar sebagai hewan yang terancam punah di IUCN Redlist disebabkan karena banyaknya orang yang memperdagangkannya.</item>
+        <item>Semua jenis penyu dilindungi oleh Undang-undang internasional maupun Indonesia. Penyu Belimbing, Penyu Kemp’s Ridley, dan Penyu Sisik diklasifikasikan “sangat terancam punah” oleh The World Conservation United (IUCN).</item>
+        <item>jenis satwa liar dilindungi berdasarkan Undang-Undang No. 5 Tahun 1990 dan Peraturan Menteri Lingkungan Hidup dan Kehutanan Republik Indonesia Nomor P.106/MENLHK/SETJEN/KUM.1/12/2018 tentang Jenis Tumbuhan dan Satwa yang Dilindungi</item>
+        <item>Menurut undang-undang No. 5 Tahun 1990 malayopython timoriensis sekarang menjadi hewan yang sangat dilidungi termasuk appendix 1 dan termasuk kategori endangered menurut IUCN.</item>
+        <item>Dalam Daftar Merah IUCN, Sanca Hijau berstatus Mengkhawatirkan (Least Concern/LC), sedang berdasarkan UU Nomor 5 Tahun 1990 tentang Konservasi Sumber Daya Alam Hayati dan Ekosistemnya, spesies ini merupakan satwa dilindungi di Indonesia, yang mana tidak  boleh ditangkap, disakiti, dibunuh, dipelihara, atau pun diperdagangkan</item>
+    </string-array>
+
+
+    <string-array name="gambar">
+        <item>@drawable/banteng</item>
+        <item>@drawable/anoa</item>
+        <item>@drawable/yaki</item>
+        <item>@drawable/anjing</item>
+        <item>@drawable/rusakuning</item>
+        <item>@drawable/kodokmerah</item>
+        <item>@drawable/kurakuraleher</item>
+        <item>@drawable/penyusisik</item>
+        <item>@drawable/buayamuara</item>
+        <item>@drawable/sancatimor</item>
+        <item>@drawable/sancahijau</item>
+    </string-array>
+
+    <string-array name="namaObject">
+        <item>banteng</item>
+        <item>anoa</item>
+        <item>yaki</item>
+        <item>anjing</item>
+        <item>kijangkuning</item>
+        <item>kodokmerah</item>
+        <item>kurakura</item>
+        <item>penyu</item>
+        <item>buaya</item>
+        <item>sancatimor</item>
+        <item>sancahijau</item>
+    </string-array>
+
+    <string-array name="siklusHewan">
+        <item>Rumput liar</item>
+        <item>Rumput gajah</item>
+        <item>mulai dari daun, pucuk daun, bunga, biji, buah-buahan, umbi, serta beberapa jenis serangga, moluska dan invertebrate kecil</item>
+        <item>kelinci, kancil, babi hutan, kijang, dan rusa.</item>
+        <item>daun-daun muda, rumput, buah, dan akar tanaman.</item>
+        <item>serangga</item>
+        <item>mereka lebih menyukai tanaman dan buah daripada binatang di alam liar</item>
+        <item>memakan ubur-ubur, lamun (sea grass), keong, dan udang</item>
+        <item>buaya muara lebih suka memakan kelelawar yang banyak terbang di sekitar kandang, ikan, dan katak. </item>
+        <item>Makanan utamanya ialah mamalia kecil dan burung</item>
+        <item>Sanca hijau merupakan ular tidak berbisa atau non-venomous yang memakan kadal pohon, burung dan vertebrata kecil arboreal lainnya</item>
+    </string-array>
+
+
+
+</resources>

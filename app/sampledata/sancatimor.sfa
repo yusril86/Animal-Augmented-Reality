@@ -1,0 +1,50 @@
+{
+  materials: [
+    {
+      name: 'BushmasterSnake_mat',
+      parameters: [
+        {
+          baseColor: 'BushmasterSnake_BaseColor',
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/sancatimor.obj',
+    name: 'sancatimor',
+    recenter: 'root',
+    scale: 0.18961800000000001,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\BushmasterSnake_BaseColor.png',
+      name: 'BushmasterSnake_BaseColor',
+      pipeline_name: 'BushmasterSnake_BaseColor.png',
+    },
+  ],
+  version: '0.54:2',
+}

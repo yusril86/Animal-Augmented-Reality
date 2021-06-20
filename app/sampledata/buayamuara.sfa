@@ -1,0 +1,50 @@
+{
+  materials: [
+    {
+      name: 'BlackCaiman_mat',
+      parameters: [
+        {
+          baseColor: 'BlackCaiman_BaseColor',
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/buayamuara.obj',
+    name: 'buayamuara',
+    recenter: 'root',
+    scale: 0.455733,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\BlackCaiman_BaseColor.png',
+      name: 'BlackCaiman_BaseColor',
+      pipeline_name: 'BlackCaiman_BaseColor.png',
+    },
+  ],
+  version: '0.54:2',
+}

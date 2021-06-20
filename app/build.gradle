@@ -1,0 +1,99 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.skripsi.hewanlangka"
+        minSdkVersion 24
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.core:core-ktx:1.3.2'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.17.1'
+}
+apply plugin: 'com.google.ar.sceneform.plugin'
+
+sceneform.asset('sampledata/cattle.obj', // 'Source Asset Path' specified during import.
+        'default',                    // 'Material Path' specified during import.
+        'sampledata/cattle.sfa', // '.sfa Output Path' specified during import.
+        'src/main/res/raw/cattle')
+
+sceneform.asset('sampledata/Goat.obj', // 'Source Asset Path' specified during import.
+        'default',                    // 'Material Path' specified during import.
+        'sampledata/Goat.sfa', // '.sfa Output Path' specified during import.
+        'src/main/res/raw/Goat')
+
+sceneform.asset('sampledata/Monkey.obj', // 'Source Asset Path' specified during import.
+        'default',                    // 'Material Path' specified during import.
+        'sampledata/Monkey.sfa', // '.sfa Output Path' specified during import.
+        'src/main/res/raw/Monkey')
+
+sceneform.asset('sampledata/Fox.obj', // 'Source Asset Path' specified during import.
+        'default',                    // 'Material Path' specified during import.
+        'sampledata/Fox.sfa', // '.sfa Output Path' specified during import.
+        'src/main/res/raw/Fox')
+
+sceneform.asset('sampledata/turtle.obj', // 'Source Asset Path' specified during import.
+        'default',                    // 'Material Path' specified during import.
+        'sampledata/turtle.sfa', // '.sfa Output Path' specified during import.
+        'src/main/res/raw/turtle')
+
+sceneform.asset('sampledata/rusakuning.obj', // 'Source Asset Path' specified during import.
+        'default',                    // 'Material Path' specified during import.
+        'sampledata/rusakuning.sfa', // '.sfa Output Path' specified during import.
+        'src/main/res/raw/rusakuning')
+
+sceneform.asset('sampledata/poisondartfrog.obj', // 'Source Asset Path' specified during import.
+        'default',                    // 'Material Path' specified during import.
+        'sampledata/poisondartfrog.sfa', // '.sfa Output Path' specified during import.
+        'src/main/res/raw/poisondartfrog')
+
+sceneform.asset('sampledata/penyusisik.obj', // 'Source Asset Path' specified during import.
+        'default',                    // 'Material Path' specified during import.
+        'sampledata/penyusisik.sfa', // '.sfa Output Path' specified during import.
+        'src/main/res/raw/penyusisik')
+
+sceneform.asset('sampledata/buayamuara.obj', // 'Source Asset Path' specified during import.
+        'default',                    // 'Material Path' specified during import.
+        'sampledata/buayamuara.sfa', // '.sfa Output Path' specified during import.
+        'src/main/res/raw/buayamuara')
+
+sceneform.asset('sampledata/sancatimor.obj', // 'Source Asset Path' specified during import.
+        'default',                    // 'Material Path' specified during import.
+        'sampledata/sancatimor.sfa', // '.sfa Output Path' specified during import.
+        'src/main/res/raw/sancatimor')
+
+sceneform.asset('sampledata/sancahijau.obj', // 'Source Asset Path' specified during import.
+        'default',                    // 'Material Path' specified during import.
+        'sampledata/sancahijau.sfa', // '.sfa Output Path' specified during import.
+        'src/main/res/raw/sancahijau')

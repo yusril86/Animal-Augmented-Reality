@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.DetailActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            layout="@layout/toolbar_back"
+            android:id="@+id/toolbarDetail"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvNamaHewanDetail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Nama Hewan"
+            android:textSize="25sp"
+            android:padding="8dp"
+            android:textColor="#ffff"
+            android:textStyle="bold|italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp"
+            android:textAlignment="center"
+            app:layout_constraintTop_toBottomOf="@id/toolbarDetail"
+            />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivHewanDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/anjing"
+            app:layout_constraintTop_toBottomOf="@id/tvNamaHewanDetail"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvHeaderKriteriaHewanDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Kriteria Hewan"
+            android:textSize="25sp"
+            android:layout_marginTop="8dp"
+            android:paddingStart="16dp"
+            android:textColor="#ffff"
+            app:layout_constraintTop_toBottomOf="@id/ivHewanDetail"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvKriteriaHewanDetail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Tinggi pundak 120-170 cm.jantang tinggi 1,9 m bobot badan 825 kg,sedangkan betinanya tinggi 1,6 m dengan bobot badan 639 kg"
+            app:layout_constraintTop_toBottomOf="@id/tvHeaderKriteriaHewanDetail"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="16sp"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvHeaderPulauHewanDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Pulau Hewan"
+            android:textSize="25sp"
+            android:layout_marginTop="8dp"
+            android:paddingStart="16dp"
+            android:textColor="#ffff"
+            app:layout_constraintTop_toBottomOf="@id/tvKriteriaHewanDetail"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvPulauHewanDetail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Jawa, Sulawesi"
+            app:layout_constraintTop_toBottomOf="@id/tvHeaderPulauHewanDetail"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="16sp"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvHeaderPasalHewanDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimary"
+            android:text="Pasal Hewan/Manfaat"
+            android:textSize="25sp"
+            app:layout_constraintTop_toBottomOf="@id/tvPulauHewanDetail"
+            android:paddingStart="16dp"
+            android:textColor="#ffff" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvPasalHewanDetail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Tinggi pundak 120-170 cm.jantang tinggi 1,9 m bobot badan 825 kg,sedangkan betinanya tinggi 1,6 m dengan bobot badan 639 kg"
+            app:layout_constraintTop_toBottomOf="@id/tvHeaderPasalHewanDetail"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="16sp"
+
+            />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvHeaderSiklusHewanDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Siklus dan makanan"
+            android:textSize="25sp"
+            android:paddingStart="16dp"
+            android:textColor="#ffff"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/tvPasalHewanDetail"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvSiklusHewanDetail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Tinggi pundak 120-170 cm.jantang tinggi 1,9 m bobot badan 825 kg,sedangkan betinanya tinggi 1,6 m dengan bobot badan 639 kg"
+            app:layout_constraintTop_toBottomOf="@id/tvHeaderSiklusHewanDetail"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="16sp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvSiklusHewanDetail"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorPrimary"
+            android:text="OPEN 3D"
+            android:padding="16dp"
+            android:textColor="#ffff"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
