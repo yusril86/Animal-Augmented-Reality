@@ -17,6 +17,7 @@ class DetailActivity : AppCompatActivity() {
         const val EXTRA_PASAL = "extra_pasal"
         const val EXTRA_OBJECT = "extra_object"
         const val EXTRA_SIKLUS = "extra_siklus"
+        const val EXTRA_MARKER = "extra_marker"
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,6 +30,7 @@ class DetailActivity : AppCompatActivity() {
         val pasal = intent.getStringExtra(EXTRA_PASAL)
         val namaObject = intent.getStringExtra(EXTRA_OBJECT)
         val siklus = intent.getStringExtra(EXTRA_SIKLUS)
+        val marker = intent.getStringExtra(EXTRA_MARKER)
 
         tvNamaHewanDetail.text = namaHewan
         ivHewanDetail.setImageResource(photoHewan)
@@ -42,6 +44,13 @@ class DetailActivity : AppCompatActivity() {
             intent.putExtra("status",namaObject)
             startActivity(intent)
         }
+
+        btnPetaSebaran.setOnClickListener {
+            val intent = Intent(this, PetaSebaranHewanActivity::class.java)
+            intent.putExtra("status",namaObject)
+            startActivity(intent)
+        }
+
         toolbarDetail.btnBack.setOnClickListener {
             onBackPressed()
         }

@@ -32,16 +32,16 @@ Jenis ini hidup di hutan belantara hingga wilayah pegunungan. Perawakannya sedan
     </string-array>
 
     <string-array name="namaPulau">
-        <item>Jawa,kalimntan,bali</item>
+        <item>Jawa,kalimantan,bali</item>
         <item>Sulawesi</item>
         <item>Sulawesi utara</item>
         <item>Sumatera dan jawa</item>
         <item>Kalimantan</item>
         <item>Jawa barat</item>
         <item>Papua bagian selatan dan papua nugini.</item>
-        <item>Tersebar luas di perairan samudera Atlantik dan Pasifik.</item>
-        <item>Muara Sungai-Sungai Besar Dan Air Laut Yang Dekat Dengan Darata Di Australia.Bangladesh, Brunei, Myanmar, Palau, Papua Nugini, Filipina,Kepulauan Solomo, Sri Langka, Vanuatu, Vietnam.</item>
-        <item>Endemik Di Nusa Tenggara: Flores,Lembata Solor,Pantar, Dan Adonara</item>
+        <item>Tersebar luas di perairan samudera Pasifik.</item>
+        <item>Muara Sungai-Sungai Besar Dan Air Laut Yang Dekat Dengan Daratan di Indonesia</item>
+        <item>Endemik Di Nusa Tenggara Timur: Flores,Lembata Solor,Pantar, Dan Adonara</item>
         <item>Kepulauan raja ampat</item>
     </string-array>
 
@@ -104,6 +104,34 @@ Macaca nigra didaftarkan dalam Apendix II oleh CITES ( Wilson, 1993).
         <item>Sanca hijau merupakan ular tidak berbisa atau non-venomous yang memakan kadal pohon, burung dan vertebrata kecil arboreal lainnya</item>
     </string-array>
 
+    <string-array name="markerMaps">
+        <item>-33.87365, 151.206821</item>
+        <item>-33.87365, 151.206891</item>
+        <item>-33.87365, 151.206892</item>
+        <item>-33.87365, 151.206893</item>
+        <item>-33.87365, 151.206894</item>
+        <item>-33.87365, 151.206895</item>
+        <item>-33.87365, 151.206896</item>
+        <item>-33.87365, 151.206897</item>
+        <item>-33.87365, 151.206898</item>
+        <item>-33.87365, 151.206899</item>
+        <item>-33.87365, 151.206891</item>
+    </string-array>
+    <string name="title_activity_peta_sebaran_hewan">Map</string>
+
+    <string-array name="sebaranIndonesia">
+        <item>Indonesia Tengah</item>
+        <item>Indonesia Tengah</item>
+        <item>Indonesia Tengah</item>
+        <item>Indonesia Barat</item>
+        <item>Indonesia Tengah</item>
+        <item>Indonesia Barat</item>
+        <item>Indonesia Timur</item>
+        <item>Indonesia Timur</item>
+        <item>Indonesia Barat</item>
+        <item>Indonesia Timur</item>
+        <item>Indonesia Timur</item>
+    </string-array>
 
 
 </resources>

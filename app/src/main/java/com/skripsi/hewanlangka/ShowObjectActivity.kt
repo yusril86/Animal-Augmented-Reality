@@ -20,7 +20,7 @@ class ShowObjectActivity : AppCompatActivity() {
         val status = intent.getStringExtra("status")
 
         when(status){
-            "benteng" ->{
+            "banteng" ->{
                 setUpModelBanteng()
                 setUpPlane()
             }
