@@ -17,6 +17,8 @@ import com.skripsi.hewanlangka.ui.DetailActivity.Companion.EXTRA_SIKLUS
 import com.skripsi.hewanlangka.R
 import com.skripsi.hewanlangka.model.ModelHewan
 import com.skripsi.hewanlangka.ui.DetailActivity.Companion.EXTRA_MARKER
+import com.skripsi.hewanlangka.ui.DetailActivity.Companion.EXTRA_SUARA
+import com.skripsi.hewanlangka.ui.DetailActivity.Companion.EXTRA_VIDEO
 import kotlinx.android.synthetic.main.item_list_hewan.view.*
 
 class HewanListAdapter : RecyclerView.Adapter<HewanListAdapter.ItemViewHolder>() {
@@ -24,11 +26,11 @@ class HewanListAdapter : RecyclerView.Adapter<HewanListAdapter.ItemViewHolder>()
     private var mFilterHewan: MutableList<ModelHewan> = ArrayList()
 
     fun update(list : List<ModelHewan> ){
-        /*mListHewan.clear()
+        mListHewan.clear()
         mListHewan.addAll(list)
-        notifyDataSetChanged()*/
+        notifyDataSetChanged()
 
-        if (mListHewan == null){
+        /*if (mListHewan == null){
             mListHewan.addAll(list)
             mFilterHewan.addAll(list)
             notifyItemChanged(0,mFilterHewan.size)
@@ -55,7 +57,7 @@ class HewanListAdapter : RecyclerView.Adapter<HewanListAdapter.ItemViewHolder>()
             mListHewan.addAll(list)
             mFilterHewan.addAll(list)
             result.dispatchUpdatesTo(this)
-        }
+        }*/
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemViewHolder {
@@ -65,7 +67,7 @@ class HewanListAdapter : RecyclerView.Adapter<HewanListAdapter.ItemViewHolder>()
 
     override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {
         holder.itemView.apply {
-            mFilterHewan[position].apply {
+            mListHewan[position].apply {
                 tvJudulHewan.text = namaHewan
                 tvPulauHewan.text = lokasiHewan
                 ivHewan.setImageResource(photoHewan)
@@ -80,17 +82,15 @@ class HewanListAdapter : RecyclerView.Adapter<HewanListAdapter.ItemViewHolder>()
                 intent.putExtra(EXTRA_OBJECT,mListHewan[position].namaObject)
                 intent.putExtra(EXTRA_SIKLUS,mListHewan[position].siklusHewan)
                 intent.putExtra(EXTRA_MARKER,mListHewan[position].markerMaps)
+                intent.putExtra(EXTRA_SUARA,mListHewan[position].suaraHewan)
+                intent.putExtra(EXTRA_VIDEO,mListHewan[position].videoHewan)
                 context.startActivity(intent)
             }
         }
     }
 
     override fun getItemCount(): Int {
-        return if (mListHewan != null){
-            mFilterHewan.size
-        }else{
-            0
-        }
+        return mListHewan.size
     }
 
     fun clearFilter()

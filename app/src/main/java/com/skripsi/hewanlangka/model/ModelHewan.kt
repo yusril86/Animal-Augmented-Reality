@@ -9,5 +9,7 @@ data class ModelHewan(
     val namaObject: String,
     val siklusHewan: String,
     val markerMaps: String,
-    val sebaranIndonesia: String
+    val sebaranIndonesia: String,
+    val suaraHewan: Int,
+    val videoHewan: String
 )

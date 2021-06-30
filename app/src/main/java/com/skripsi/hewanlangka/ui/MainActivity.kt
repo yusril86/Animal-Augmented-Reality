@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var siklusHewan : Array<String>
     private lateinit var markerMaps : Array<String>
     private lateinit var sebaranIndonesia : Array<String>
+    private lateinit var videoHewan : Array<String>
+    private  val suaraHewan = arrayListOf(R.raw.banteng,R.raw.suaraanoa,R.raw.suarayaki,R.raw.suaraaningajak,R.raw.suaraaningajak,R.raw.suarakatak,R.raw.suarakurakura,R.raw.suarapenyu,R.raw.suarabuaya,R.raw.suarasancatimor,R.raw.suarasanca)
 
     private val adapterHewan : HewanListAdapter = HewanListAdapter()
     private var list = arrayListOf<ModelHewan>()
@@ -35,9 +37,9 @@ class MainActivity : AppCompatActivity() {
             adapter = adapterHewan
         }
         prepare()
-//        addItem()
+        addItem()
 
-        val arrayAdapter = ArrayAdapter(
+       /* val arrayAdapter = ArrayAdapter(
             this,
             R.layout.support_simple_spinner_dropdown_item,
             listCountry
@@ -58,7 +60,7 @@ class MainActivity : AppCompatActivity() {
             override fun onNothingSelected(p0: AdapterView<*>?) {
                 TODO("Not yet implemented")
             }
-        }
+        }*/
     }
 
     private fun prepare()
@@ -72,30 +74,36 @@ class MainActivity : AppCompatActivity() {
         siklusHewan = resources.getStringArray(R.array.siklusHewan)
         markerMaps = resources.getStringArray(R.array.markerMaps)
         sebaranIndonesia = resources.getStringArray(R.array.sebaranIndonesia)
+        videoHewan = resources.getStringArray(R.array.videoHewan)
     }
 
     private fun addItem(){
+        val getIndonesiaStatus = intent.getStringExtra("indonesiaStatus")
         for (position in namaHewan.indices){
-            val item = ModelHewan(
-                namaHewan[position],
-                photoHewan.getResourceId(position,-1),
-                kriteria[position],
-                lokasiHewan[position],
-                pasalHewan[position],
-                namaObject[position],
-                siklusHewan[position],
-                markerMaps[position],
-                sebaranIndonesia[position]
+            if (getIndonesiaStatus == sebaranIndonesia[position]){
+                val item = ModelHewan(
+                    namaHewan[position],
+                    photoHewan.getResourceId(position,-1),
+                    kriteria[position],
+                    lokasiHewan[position],
+                    pasalHewan[position],
+                    namaObject[position],
+                    siklusHewan[position],
+                    markerMaps[position],
+                    sebaranIndonesia[position],
+                    suaraHewan[position],
+                    videoHewan[position]
 
-            )
-            adapterHewan.clearFilter()
-            list.add(item)
+                )
+//                adapterHewan.clearFilter()
+                list.add(item)
+            }
         }
         adapterHewan.update(list)
     }
 
 
-    private fun addItemSpinner(){
+    /*private fun addItemSpinner(){
         for (position in namaHewan.indices){
             if (spinnerCategory.selectedItem == sebaranIndonesia[position]){
                 val item = ModelHewan(
@@ -107,14 +115,15 @@ class MainActivity : AppCompatActivity() {
                     namaObject[position],
                     siklusHewan[position],
                     markerMaps[position],
-                    sebaranIndonesia[position]
+                    sebaranIndonesia[position],
+                    suaraHewan[position]
                 )
                 adapterHewan.clearFilter()
                 list.add(item)
             }
         }
         adapterHewan.update(list)
-    }
+    }*/
 
     override fun onResume() {
         super.onResume()

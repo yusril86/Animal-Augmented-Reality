@@ -63,7 +63,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:textSize="16sp"
-
+            android:fontFamily="@font/poppins_regular"
             />
 
         <androidx.appcompat.widget.AppCompatTextView
@@ -126,7 +126,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:textSize="16sp"
-
+            android:fontFamily="@font/poppins_regular"
             />
 
 
@@ -153,20 +153,105 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:textSize="16sp"
+            android:fontFamily="@font/poppins_regular"
             />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvHeaderSuaraHewan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Suara Hewan"
+            android:textSize="25sp"
+            android:paddingStart="16dp"
+            android:textColor="#ffff"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/tvSiklusHewanDetail"
+            />
+        <androidx.appcompat.widget.AppCompatToggleButton
+            android:id="@+id/btnSuaraHewanDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvHeaderSuaraHewan"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:padding="16dp"
+            android:textOn="Stop"
+            android:textOff="Play"
+            android:textSize="16sp"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvHeaderVideoHewan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Video Hewan"
+            android:textSize="25sp"
+            android:paddingStart="16dp"
+            android:textColor="#ffff"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/btnSuaraHewanDetail"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_marginTop="8dp"
+            android:id="@+id/containerVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvHeaderVideoHewan"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/bg_video"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            >
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/thumbnail_video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_launcher_background"
+                android:scaleType="fitXY"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_judul_video"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:text="Air terjun"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="16sp"
+                android:textColor="#121111"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingStart="16dp"
+                android:paddingEnd="8dp"
+                android:paddingTop="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/thumbnail_video"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnAr"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/tvSiklusHewanDetail"
+            app:layout_constraintTop_toBottomOf="@id/containerVideo"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="16dp"
-            android:background="@color/colorPrimary"
+            android:background="@drawable/bg_btn"
             android:text="OPEN 3D"
-            android:padding="16dp"
+
             android:textColor="#ffff"
+            android:layout_marginEnd="60dp"
+            android:layout_marginStart="60dp"
             />
     </androidx.constraintlayout.widget.ConstraintLayout>
 

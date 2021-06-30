@@ -133,5 +133,17 @@ Macaca nigra didaftarkan dalam Apendix II oleh CITES ( Wilson, 1993).
         <item>Indonesia Timur</item>
     </string-array>
 
-
+    <string-array name="videoHewan">
+        <item>https://www.youtube.com/watch?v=ZaVOxFs_I9A</item>
+        <item>https://www.youtube.com/watch?v=No5IPd4bIDc</item>
+        <item>https://www.youtube.com/watch?v=TX15sPHeMgY</item>
+        <item>https://www.youtube.com/watch?v=6cdpHHBxYHc</item>
+        <item>https://www.youtube.com/watch?v=GDyUaDqrtvA</item>
+        <item>https://www.youtube.com/watch?v=Dlcf05Ndz9Q</item>
+        <item>https://www.youtube.com/watch?v=q-OBL7IX2BQ</item>
+        <item>https://www.youtube.com/watch?v=nji3O2xtEXY</item>
+        <item>https://www.youtube.com/watch?v=NH2frY4j1Aw</item>
+        <item>https://www.youtube.com/watch?v=ff5yE6v67TI</item>
+        <item>https://www.youtube.com/watch?v=IA2tDs01JH0</item>
+    </string-array>
 </resources>
